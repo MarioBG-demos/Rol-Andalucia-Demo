@@ -1,10 +1,36 @@
 # Rol de Andalucía
 
+## Description
+
+This repository contains the web service that can be found at https://www.rol-andalucia.herokuapp.com, and serves as the main hub for my current-day Dungeons and Dragons campaigns.
+
+### Current features
+
+- Magic and nonmagical item list and description
+- Character class description and ability list
+- Magic spell list and description 
+- Character sheet displayer
+- Appointment manager to settle dates for the next session
+- Character list with ability to claim it for one-shot sessions
+- A backend for a Unity-based Android mockup that allows for virtual "phones" to be handed out to players so they can investigate NPC conversations and emails in game.
+- A Telegram bot that can announce important events to groups
+- An unhealthy amount of puns and silly humour
+- Chaos code due to the platform having been developed solo and as a testing ground for other projects
+
+### Planned features
+
+- Interactive character sheets
+- Actual list views that do not use the Django administrator views
+- Clean up and refactor code so it isn't as much of a pain
+- Create views for users to be able to suggest new items and spells to the platform, along with moderation for admins
+- Full API access to use items and spells in other applications
+- Even more dubious humour
+
 ## Installation
 
 TODO: Describe the installation process
 
-## Libraries and templates
+## Libraries and templates (used and planned)
 
 - [Tippy.js](https://atomiks.github.io/tippyjs)
 - [Bizcraft Bootstrap template](https://themefisher.com/products/bizcraft-multipurpose-business-template/)
